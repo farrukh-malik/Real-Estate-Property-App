@@ -1,0 +1,62 @@
+{
+  "name": "cordova-pdf-generator",
+  "version": "1.9.3",
+  "description": "is a HTML to PDF (offline) Generator.",
+  "cordova": {
+    "id": "cordova-pdf-generator",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarvr/pdf-generator.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.4.0"
+    }
+  ],
+  "author": {
+    "name": "cesar"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cesarvr/pdf-generator/issues"
+  },
+  "homepage": "https://github.com/cesarvr/pdf-generator#readme",
+  "gitHead": "2ab6eb1be96c8fbc7bd2ca6443310aaabcd3c0a7",
+  "_id": "cordova-pdf-generator@1.9.3",
+  "scripts": {},
+  "_shasum": "25977f84188f80e07e0f8591e21811e31edec874",
+  "_from": "cordova-pdf-generator@*",
+  "_npmVersion": "3.10.10",
+  "_nodeVersion": "6.11.5",
+  "_npmUser": {
+    "name": "cvaldezr",
+    "email": "cvaldezrx@gmail.com"
+  },
+  "dist": {
+    "shasum": "25977f84188f80e07e0f8591e21811e31edec874",
+    "tarball": "https://registry.npmjs.org/cordova-pdf-generator/-/cordova-pdf-generator-1.9.3.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "cvaldezr",
+      "email": "cvaldezrx@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-pdf-generator-1.9.3.tgz_1511095396102_0.009430722566321492"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/cordova-pdf-generator/-/cordova-pdf-generator-1.9.3.tgz"
+}

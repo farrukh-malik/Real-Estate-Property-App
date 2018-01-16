@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/.gitignore" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platforms/android/build.gradle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platforms/android/project.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plugins/cordova-plugin-local-notification/www/local-notification-util.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/css/style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controllers.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/routes.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/kCoach.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/kegel.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/kegelOptions.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/newNotification.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/notifications.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/rest.html" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

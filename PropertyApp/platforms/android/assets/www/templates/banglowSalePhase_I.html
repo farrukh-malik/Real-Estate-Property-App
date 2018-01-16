@@ -1,0 +1,30 @@
+<ion-view title="Banglow-Sale" id="page10">
+  <ion-nav-buttons side="right" class="has-header">
+    <button class="button button-icon icon ion-ios-plus-outline" ng-click="vm.addForm()"></button>
+  </ion-nav-buttons>
+  <ion-content padding="true" class="has-header">
+    <!--<ion-list class="manual-list-fullwidth">-->
+      <!--<ion-item ng-repeat="list in vm.list" class="item-icon-left" ng-click="notification($index)">-->
+        <!--&lt;!&ndash;<i class="icon ion-ios-alarm-outline"></i>&ndash;&gt;-->
+        <!--&lt;!&ndash;{{"Time"+vm.time.showTime}} - &ndash;&gt;-->
+        <!--&lt;!&ndash;&lt;!&ndash;<span ng-repeat="days in notifications.days">{{days.name}}<span ng-if="!$last">, </span></span>&ndash;&gt;&ndash;&gt;-->
+        <!--&lt;!&ndash;<ion-option-button ng-click="vm.delete($index)" class="button-assertive">Delete</ion-option-button>&ndash;&gt;-->
+
+
+      <!--</ion-item>-->
+    <!--</ion-list>-->
+
+    <ul ng-repeat="list in vm.list" id="plansPrograms-markdown18" class="show-list-numbers-and-dots">
+      <li style="color:#000000;">{{"------------------------------------------------------------------------------------"}}</li>
+      <li style="color:#000000;">{{"Time: "+list.time}}</li>
+      <li style="color:#000000;">{{"Banglow No: "+list.banglowNo}}</li>
+      <li style="color:#000000;">{{"Plot No: "+list.plotNo}}</li>
+      <li style="color:#000000;">{{"Location: "+list.location}}</li>
+      <li style="color:#000000;">{{"Bedrooms: "+list.bedrooms}}</li>
+      <li style="color:#000000;">{{"Yards: "+list.yards}}</li>
+      <li style="color:#000000;">{{"DEM: "+list.dem}}</li>
+      <li style="color:#000000;">{{"Contact Person: "+list.contactPerson}}</li>
+      <li style="color:#000000;">{{"Other: "+list.other}}</li>
+    </ul>
+  </ion-content>
+</ion-view>

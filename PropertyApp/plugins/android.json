@@ -1,0 +1,58 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.ionicframework.brandon884786"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ionicframework.brandon884786"
+        },
+        "cordova-plugin-nativeaudio": {
+            "PACKAGE_NAME": "com.ionicframework.brandon884786"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ionicframework.brandon884786"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.ionicframework.brandon884786"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.ionicframework.brandon884786"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ionicframework.brandon884786"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.ionicframework.brandon884786"
+        },
+        "cordova-plugin-local-notification": {
+            "PACKAGE_NAME": "com.ionicframework.brandon884786"
+        },
+        "cordova-plugin-native-ringtones": {
+            "PACKAGE_NAME": "com.ionicframework.brandon884786"
+        },
+        "cordova-pdf-generator": {
+            "PACKAGE_NAME": "com.ionicframework.brandon884786"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.ionicframework.brandon884786"
+        },
+        "cordova-plugin-email": {
+            "PACKAGE_NAME": "com.ionicframework.brandon884786"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-badge": {
+            "PACKAGE_NAME": "com.ionicframework.brandon884786"
+        },
+        "es6-promise-plugin": {
+            "PACKAGE_NAME": "com.ionicframework.brandon884786"
+        }
+    }
+}
