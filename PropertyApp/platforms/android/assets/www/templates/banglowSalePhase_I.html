@@ -14,17 +14,152 @@
       <!--</ion-item>-->
     <!--</ion-list>-->
 
-    <ul ng-repeat="list in vm.list" id="plansPrograms-markdown18" class="show-list-numbers-and-dots">
-      <li style="color:#000000;">{{"------------------------------------------------------------------------------------"}}</li>
-      <li style="color:#000000;">{{"Time: "+list.time}}</li>
-      <li style="color:#000000;">{{"Banglow No: "+list.banglowNo}}</li>
-      <li style="color:#000000;">{{"Plot No: "+list.plotNo}}</li>
-      <li style="color:#000000;">{{"Location: "+list.location}}</li>
-      <li style="color:#000000;">{{"Bedrooms: "+list.bedrooms}}</li>
-      <li style="color:#000000;">{{"Yards: "+list.yards}}</li>
-      <li style="color:#000000;">{{"DEM: "+list.dem}}</li>
-      <li style="color:#000000;">{{"Contact Person: "+list.contactPerson}}</li>
-      <li style="color:#000000;">{{"Other: "+list.other}}</li>
-    </ul>
+    <!--<table ng-repeat="list in vm.list">-->
+      <!--<thead>-->
+      <!--<tr>-->
+        <!--<th>First Name</th>-->
+        <!--<th>Last Name</th>-->
+      <!--</tr>-->
+      <!--</thead>-->
+      <!--<tbody>-->
+      <!--<tr>-->
+        <!--<td>{{list.time}}</td>-->
+        <!--<td>{{list.banglowNo}}</td>-->
+      <!--</tr>-->
+      <!--</tbody>-->
+    <!--</table>-->
+    <!--<div class="box effect4" ng-repeat="list in vm.list">-->
+
+    <!--<table >-->
+      <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<th></th>&ndash;&gt;-->
+        <!--&lt;!&ndash;<th scope="col"></th>&ndash;&gt;-->
+         <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+      <!--<tr>-->
+        <!--<th scope="row">Time</th>-->
+        <!--<td>{{list.time}}</td>-->
+      <!--</tr>-->
+      <!--<tr>-->
+        <!--<th scope="row">Banglow No</th>-->
+        <!--<td>{{list.banglowNo}}</td>-->
+      <!--</tr>-->
+      <!--<tr>-->
+        <!--<th scope="row">Plot No</th>-->
+        <!--<td>{{list.plotNo}}</td>-->
+      <!--</tr>-->
+      <!--<tr>-->
+        <!--<th scope="row">Location</th>-->
+        <!--<td>{{list.location}}</td>-->
+      <!--</tr>-->
+      <!--<tr>-->
+        <!--<th scope="row">Bedrooms</th>-->
+        <!--<td>{{list.bedrooms}}</td>-->
+      <!--</tr>-->
+      <!--<tr>-->
+        <!--<th scope="row">Yards</th>-->
+        <!--<td>{{list.yards}}</td>-->
+      <!--</tr>-->
+      <!--<tr>-->
+        <!--<th scope="row">DEM</th>-->
+        <!--<td>{{list.dem}}</td>-->
+      <!--</tr>-->
+      <!--<tr>-->
+        <!--<th scope="row">Contact Person</th>-->
+        <!--<td>{{list.contactPerson}}</td>-->
+      <!--</tr>-->
+      <!--<tr>-->
+        <!--<th scope="row">Other</th>-->
+        <!--<td>{{list.other}}</td>-->
+      <!--</tr>-->
+      <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<th scope="row"></th>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td>{{}}</td>&ndash;&gt;-->
+      <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+    <!--</table>-->
+
+    <!--</div>-->
+    <ion-scroll zooming="true" direction="xy" style="width: 100%; height: 500px">
+
+    <div class="box effect4" >
+
+      <table >
+        <tr>
+        <th>Time</th>
+        <th scope="col">Banglow No</th>
+          <th scope="col">Plot No</th>
+          <th scope="col">Location</th>
+          <th scope="col">Bedrooms</th>
+          <th scope="col">Yards</th>
+          <th scope="col">DEM</th>
+          <th scope="col">Contact Person</th>
+          <th scope="col">Other</th>
+
+        </tr>
+        <tr ng-repeat="list in vm.list">
+          <!--<th scope="row">Time</th>-->
+          <td>{{list.time}}</td>
+          <td>{{list.banglowNo}}</td>
+          <td>{{list.plotNo}}</td>
+          <td>{{list.location}}</td>
+          <td>{{list.bedrooms}}</td>
+          <td>{{list.yards}}</td>
+          <td>{{list.dem}}</td>
+          <td>{{list.contactPerson}}</td>
+          <td>{{list.other}}</td>
+
+        </tr>
+        <!--<tr>-->
+          <!--<th scope="row">Banglow No</th>-->
+          <!--<td>{{list.banglowNo}}</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+          <!--<th scope="row">Plot No</th>-->
+          <!--<td>{{list.plotNo}}</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+          <!--<th scope="row">Location</th>-->
+          <!--<td>{{list.location}}</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+          <!--<th scope="row">Bedrooms</th>-->
+          <!--<td>{{list.bedrooms}}</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+          <!--<th scope="row">Yards</th>-->
+          <!--<td>{{list.yards}}</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+          <!--<th scope="row">DEM</th>-->
+          <!--<td>{{list.dem}}</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+          <!--<th scope="row">Contact Person</th>-->
+          <!--<td>{{list.contactPerson}}</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+          <!--<th scope="row">Other</th>-->
+          <!--<td>{{list.other}}</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+        <!--<th scope="row"></th>-->
+        <!--<td>{{}}</td>-->
+        <!--</tr>-->
+      </table>
+
+    </div>
+    </ion-scroll>
+
+      <!--<ul ng-repeat="list in vm.list" id="plansPrograms-markdown18" class="show-list-numbers-and-dots">-->
+      <!--<li style="color:#000000;">{{"&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;"}}</li>-->
+      <!--<li style="color:#000000;">{{"Time: "+list.time}}</li>-->
+      <!--<li style="color:#000000;">{{"Banglow No: "+list.banglowNo}}</li>-->
+      <!--<li style="color:#000000;">{{"Plot No: "+list.plotNo}}</li>-->
+      <!--<li style="color:#000000;">{{"Location: "+list.location}}</li>-->
+      <!--<li style="color:#000000;">{{"Bedrooms: "+list.bedrooms}}</li>-->
+      <!--<li style="color:#000000;">{{"Yards: "+list.yards}}</li>-->
+      <!--<li style="color:#000000;">{{"DEM: "+list.dem}}</li>-->
+      <!--<li style="color:#000000;">{{"Contact Person: "+list.contactPerson}}</li>-->
+      <!--<li style="color:#000000;">{{"Other: "+list.other}}</li>-->
+    <!--</ul>-->
   </ion-content>
 </ion-view>
