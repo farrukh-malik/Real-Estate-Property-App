@@ -78,23 +78,14 @@
     <!--</table>-->
 
     <!--</div>-->
-    <!--<div class = "item item-input-inset">-->
       <div class="bar bar-header item-input-inset">
         <label class="item-input-wrapper">
           <i class="icon ion-ios7-search placeholder-icon"></i>
-          <input type="search" placeholder="Search">
+          <input type="search" placeholder="Search By Plot No" ng-model="vm.searchByPlot" ng-change="vm.search()">
         </label>
-        <button class="button button-icon icon ion-ios-search-strong" ng-click="vm.search()"></button>
-        <!--<button class="button button-clear">-->
-          <!--Cancel-->
-        <!--</button>-->
+        <button class="button button-icon icon ion-ios-search-strong" ></button>
+
       </div>
-      <!--<label class = "item item-input-wrapper">-->
-        <!--<i class = "icon ion-edit placeholder-icon"></i>-->
-        <!--<span class="input-label">Plot #:</span>-->
-        <!--<input type = "number" placeholder = "" ng-model="vm.search"/>-->
-      <!--</label>-->
-    <!--</div>-->
 
     <ion-scroll zooming="true" direction="xy" style="width: 100%; height: 500px">
 

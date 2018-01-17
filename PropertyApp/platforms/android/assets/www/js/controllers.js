@@ -86,7 +86,20 @@ function ($scope, $stateParams, $state, $localStorage) {
 //notification.html
       var vm = this;
       //banglowSalelist_phaseI
+      var banglowsData = $localStorage.banglowSaleObj_phaseI;
+      var temp = [];
 
+
+      vm.search = function(){
+        var plotSearch = this.searchByPlot;
+
+        for (i = 0; i < banglowsData.length; i++ ){
+          if(plotSearch == banglowsData[i].plotNo){
+            temp.push(banglowsData[i]);
+          }
+        }
+        vm.list = temp;
+      }
 
       vm.addForm = function(){
         $state.go('banglowSaleFormPage');
